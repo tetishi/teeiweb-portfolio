@@ -1,0 +1,16 @@
+@use
+
+.c-btn {
+    display: inline-block;
+    padding: 3px 20px;
+    color: $c-base;
+    background-color: $c-accent;
+    border: solid 2px $c-accent;
+    border-radius: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    &:hover {
+        color: $c-accent;
+        background-color: $c-base;
+    }
+}

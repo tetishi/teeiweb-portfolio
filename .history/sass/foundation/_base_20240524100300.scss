@@ -1,0 +1,26 @@
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+	line-height: 1.6;
+	height: 100%; //今回はあってもなくてもいい
+	scroll-behavior: smooth;
+}
+
+body {
+	color: #333333;
+	font-size: 1.6rem;
+	font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN",
+		"Hiragino Sans", Meiryo, sans-serif;
+	min-width: 350px;
+	width: 100%;
+	overflow-x: hidden;
+}
