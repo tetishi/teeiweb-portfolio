@@ -19,7 +19,7 @@ gulp.task("default", () => {
                         outputStyle: "expanded"
                     })
                     // Sassのコンパイルエラーを表示（これがないと自動的に止まってしまう）
-                    .on("error", sass.logError)
+                    
                 )
                 // cssフォルダー以下に保存
                 .pipe(gulp.dest("css"))
