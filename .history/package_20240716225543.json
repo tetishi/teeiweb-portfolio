@@ -1,7 +1,8 @@
+
 {
   "name": "teeiweb-portfolio",
   "version": "1.0.0",
-  "description": "",
+  "description": "CodeUps専用",
   "main": "index.js",
   "author": "",
   "license": "ISC",
@@ -32,3 +33,4 @@
     "del": "^6.0.0"
   }
 }
+

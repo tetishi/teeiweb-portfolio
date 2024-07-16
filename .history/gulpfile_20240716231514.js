@@ -129,3 +129,24 @@ exports.default = series(series(clean, cssSass, imgImagemin), parallel(watchFile
 
 // npx gulp del → 画像最適化（重複を削除）
 // exports.del = series(series(clean, cssSass, imgImagemin), parallel(watchFiles, browserSyncFunc));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
