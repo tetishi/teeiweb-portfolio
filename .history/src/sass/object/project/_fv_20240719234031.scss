@@ -1,0 +1,33 @@
+@use "../../foundation" as g;
+
+.p-fv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // background-image: url();
+    // background-repeat: no-repeat;
+    // background-position: center;
+    // background-size: cover;
+
+    &__inner {
+
+    }
+
+    &__content {
+        text-align: center;
+
+        & h1 {
+            font-size: 4rem;
+            line-height: 1.1;
+            font-weight: bold;
+            letter-spacing: .05em;
+            // color: $c-base;
+        }
+
+        & p {
+            font-weight: bold;
+            letter-spacing: .08em;
+            font-size: 1.5;
+        }
+    }
+}

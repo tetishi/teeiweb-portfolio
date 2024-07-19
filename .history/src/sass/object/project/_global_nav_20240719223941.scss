@@ -1,0 +1,15 @@
+@use "../../global" as g;
+
+.p-global-nav {
+    
+}
+
+
+.c-btn-menu {
+    display: none;
+
+    @include g.breakpoint(tablet) {
+        display: none;
+        display: flex;
+    }
+}

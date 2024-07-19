@@ -1,0 +1,12 @@
+@use "../../foundation" as g;
+
+.p-contact {
+    &__inner {
+
+    }
+
+    & p {
+        font-size: 2.6rem;
+        text-align: center;
+    }
+}

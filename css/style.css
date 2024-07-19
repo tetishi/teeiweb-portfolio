@@ -332,6 +332,10 @@ a:hover img {
   transition: all 0.3s;
 }
 
+ul {
+  list-style: none;
+}
+
 /*!
  * ress.css • v4.0.0
  * MIT License
@@ -654,5 +658,99 @@ progress {
   max-width: 1220px;
   margin: 0 auto;
   padding: 10px 30px;
+}
+
+.p-contact p {
+  font-size: 26px;
+  font-size: 2.6rem;
+  text-align: center;
+}
+.p-global-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  visibility: hidden;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+  opacity: 0;
+}
+.p-global-nav.is-show {
+  visibility: visible;
+  opacity: 1;
+}
+.p-global-nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+.c-btn-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+@media (min-width: 640px) {
+  .c-btn-menu {
+    display: none;
+  }
+}
+
+.p-fv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.p-fv__content {
+  text-align: center;
+}
+.p-fv__content h1 {
+  font-size: 40px;
+  font-size: 4rem;
+  line-height: 1.1;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  text-shadow: 1px 1px 20px rgba(0, 0, 0, .35);
+}
+.p-fv__content p {
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  font-size: 15px;
+  font-size: 1.5rem;
+  text-shadow: 1px 1px 15px rgba(0, 0, 0, .35);
+}
+
+.p-works h2 {
+  text-align: center;
+}
+.p-works__item {
+  width: 100%;
 }
 /*# sourceMappingURL=style.css.map */

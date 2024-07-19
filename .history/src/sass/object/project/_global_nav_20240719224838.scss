@@ -1,0 +1,16 @@
+@use "../../foundation" as g;
+
+.p-global-nav {
+    display: none;
+
+    @include g.breakpoint
+}
+
+
+.c-btn-menu {
+    display: flex;
+
+    @include g.breakpoint(tablet) {
+        display: none;
+    }
+}
