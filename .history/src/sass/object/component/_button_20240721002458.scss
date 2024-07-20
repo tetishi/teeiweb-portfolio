@@ -3,7 +3,6 @@
 .c-btn {
     display: inline-block;
     width: 100%;
-    min-width: 220px;
     font-size: 1.3rem;
     // padding: 3px 20px;
     padding: 1.2em 2em;
@@ -16,7 +15,7 @@
     text-align: center;
     letter-spacing: .05em;
     transition: .3s;
-    cursor: pointer;
+    cursor: b;
     &:hover {
         color: $c-accent;
         background-color: $c-base;

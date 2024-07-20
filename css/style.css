@@ -641,13 +641,22 @@ progress {
 
 .c-btn {
   display: inline-block;
-  padding: 3px 20px;
+  width: 100%;
+  min-width: 220px;
+  font-size: 13px;
+  font-size: 1.3rem;
+  padding: 1.2em 2em;
   color: #fff;
   background-color: #f99f48;
-  border: solid 2px #f99f48;
-  border-radius: 50px;
+  border: solid 1px #f99f48;
+  border-radius: 40px;
   font-weight: bold;
   text-decoration: none;
+  text-align: center;
+  letter-spacing: 0.05em;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
 }
 .c-btn:hover {
   color: #f99f48;
@@ -658,6 +667,16 @@ progress {
   max-width: 1220px;
   margin: 0 auto;
   padding: 10px 30px;
+}
+
+.c-title {
+  font-size: 26px;
+  font-size: 2.6rem;
+  margin-bottom: 20px;
+  line-height: 1;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 0.05em;
 }
 
 .p-contact p {
