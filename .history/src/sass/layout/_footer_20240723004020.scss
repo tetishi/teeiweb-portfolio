@@ -1,0 +1,14 @@
+@use "./../foundation/variable" as *;
+
+.l-footer {
+    padding: 40px;
+
+    &__nav {
+        margin-bottom: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__nav-list 
+}

@@ -10,7 +10,7 @@
     }
 
     &__lists {
-        // text-align: center;
+        text-align: center;
         display: flex;
         flex-wrap: wrap;
         align-items: normal;
@@ -27,11 +27,6 @@
         &:not(:last-child) {
             margin-bottom: 2em;
         }
-    }
-
-    &__link {
-        text-decoration: none;
-        cursor: pointer;
 
         & > picture {
             margin: 0 auto;
@@ -53,5 +48,10 @@
         & > p {
             margin-top: 10px;
         }
+
+    }
+
+    &__link {
+        
     }
 }

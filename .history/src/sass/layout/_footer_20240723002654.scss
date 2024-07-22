@@ -1,0 +1,9 @@
+@use "./../foundation/variable" as *;
+
+.l-footer {
+    padding: 40px;
+
+    &__nav {
+        margin-bottom: 15px;
+    }
+}

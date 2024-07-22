@@ -1,0 +1,19 @@
+@use "../../foundation" as g;
+
+.p-works {
+    &__inner {
+
+    }
+
+    & h2 {
+        text-align: center;
+    }
+
+    &__lists {
+
+    }
+
+    &__list {
+        width: 100%;
+    }
+}

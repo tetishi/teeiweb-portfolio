@@ -10,7 +10,7 @@
     }
 
     &__lists {
-        // text-align: center;
+        text-align: center;
         display: flex;
         flex-wrap: wrap;
         align-items: normal;
@@ -30,9 +30,6 @@
     }
 
     &__link {
-        text-decoration: none;
-        cursor: pointer;
-
         & > picture {
             margin: 0 auto;
             display: table;
