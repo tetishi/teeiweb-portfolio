@@ -1,0 +1,41 @@
+@use "../../foundation" as g;
+
+.p-service {
+    
+    &__lists {
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: normal;
+        gap: 2em;
+    }
+
+    &__list {
+        flex-grow: 1;
+        overflow-wrap: break-word;
+        word-break: break-word;
+        flex-basis: 100%;
+        mb
+
+        & > picture {
+            margin: 0 auto;
+            display: table;
+        }
+
+        & img {
+            width: 87px;
+            height: 87px;
+            box-sizing: border-box;
+            max-width: 100%;
+            vertical-align: bottom;
+        }
+
+        & > h3 {
+            margin-top: 1.5em;
+        }
+
+        & > p {
+            margin-top: 10px;
+        }
+    }
+}

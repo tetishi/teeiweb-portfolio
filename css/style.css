@@ -298,8 +298,9 @@ html {
 
 body {
   color: #333333;
-  font-size: 16px;
-  font-size: 1.6rem;
+  font-size: 14px;
+  font-size: 1.4rem;
+  letter-spacing: 0.05em;
   font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
   min-width: 350px;
   width: 100%;
@@ -679,11 +680,19 @@ progress {
   letter-spacing: 0.05em;
 }
 
+.p-contact {
+  background-color: pink;
+  padding: 60px 0;
+}
 .p-contact p {
   font-size: 26px;
   font-size: 2.6rem;
   text-align: center;
 }
+.p-contact__action {
+  margin-top: 30px;
+}
+
 .p-global-nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -771,5 +780,51 @@ progress {
 }
 .p-works__item {
   width: 100%;
+}
+
+.p-service {
+  padding: 100px 0 40px;
+}
+.p-service__lists {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: normal;
+      -ms-flex-align: normal;
+          align-items: normal;
+  gap: 2em;
+}
+.p-service__list {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  word-wrap: break-word;
+  word-break: break-word;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+}
+.p-service__list:not(:last-child) {
+  margin-bottom: 2em;
+}
+.p-service__list > picture {
+  margin: 0 auto;
+  display: table;
+}
+.p-service__list img {
+  width: 87px;
+  height: 87px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  max-width: 100%;
+  vertical-align: bottom;
+}
+.p-service__list > h3 {
+  margin-top: 1.5em;
+}
+.p-service__list > p {
+  margin-top: 10px;
 }
 /*# sourceMappingURL=style.css.map */

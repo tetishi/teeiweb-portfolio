@@ -1,0 +1,19 @@
+@use "../../foundation" as g;
+
+.p-service {
+    
+    &__lists {
+        text-align: center;
+    }
+
+    &__list {
+
+        & > h3 {
+
+        }
+
+        & > p {
+            margin-top: 10px;
+        }
+    }
+}
