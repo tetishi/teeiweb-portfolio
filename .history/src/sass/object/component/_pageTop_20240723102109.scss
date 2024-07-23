@@ -1,0 +1,10 @@
+@use "./../../foundation/variable" as *;
+
+.c-pageTop {
+    position: fixed;
+    
+    &.is-show {
+        visibility: visible;
+        
+    }
+}
