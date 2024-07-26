@@ -24,9 +24,9 @@
         word-break: break-word;
         flex-basis: 100%;
 
-        // &:not(:last-child) {
-        //     margin-bottom: 2em;
-        // }
+        &:not(:last-child) {
+            margin-bottom: 2em;
+        }
     }
 
     &__link {
@@ -39,7 +39,7 @@
         }
 
         & img {
-            width: 100%;
+            wi
             // width: 87px;
             // height: 87px;
             box-sizing: border-box;
@@ -48,11 +48,11 @@
         }
 
         & > h3 {
-            margin-top: 10px;
+            margin-top: 1.5em;
         }
 
-        // & > p {
-        //     margin-top: 10px;
-        // }
+        & > p {
+            margin-top: 10px;
+        }
     }
 }

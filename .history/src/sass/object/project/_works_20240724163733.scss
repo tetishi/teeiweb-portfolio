@@ -24,9 +24,9 @@
         word-break: break-word;
         flex-basis: 100%;
 
-        // &:not(:last-child) {
-        //     margin-bottom: 2em;
-        // }
+        &:not(:last-child) {
+            margin-bottom: 2em;
+        }
     }
 
     &__link {
@@ -48,11 +48,11 @@
         }
 
         & > h3 {
-            margin-top: 10px;
+            margin-top: 1em;
         }
 
-        // & > p {
-        //     margin-top: 10px;
-        // }
+        & > p {
+            margin-top: 10px;
+        }
     }
 }
